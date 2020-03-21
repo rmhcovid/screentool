@@ -25,7 +25,7 @@ Screentool requests and assesses the patient's:
 
 
 
-Screentool has been developed by Martin Dutch and is Shared with compliments of [The Royal Melbourne Hospital, Victoria, Australia](https://www.thermh.org.au/).
+Screentool has been developed by Martin Dutch and is shared with compliments of [The Royal Melbourne Hospital, Victoria, Australia](https://www.thermh.org.au/).
 
 
 ## Downloading and using the Project
@@ -61,5 +61,5 @@ TODO
 
 ## Author and Acknowledgements
 
-This project was designed and managed using the REDCap electronic data capture tool
+This project was designed and managed using the [REDCap](https://projectredcap.org/software/) electronic data capture tool
 hosted by the [Royal Melbourne Hospital Business Intelligence Unit](https://www.thermh.org.au/).
