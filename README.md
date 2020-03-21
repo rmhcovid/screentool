@@ -59,6 +59,10 @@ The best place to obtain help for *ScreenTool* is ... TODO
 
 TODO
 
+## Legal
+
+Please see the attached LICENSE document.
+
 ## Author and Acknowledgements
 
 This project was designed and managed using the [REDCap](https://projectredcap.org/software/) electronic data capture tool
