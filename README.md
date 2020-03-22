@@ -70,7 +70,7 @@ After assessment staff & patients are notified and administrative forms created:
 2. Redirect those addresses to all the applicable staff<br/>**Or**, setup dedicated computers to check and display these emails (in a secure location) and implement staff procedures to check these regularly
 
 
-To make the most of the tool we strongly recommend using a SMS service that messages patients as well as emailing htem. Twilio provides good REDCap integration. Other providers should work (eg. ClickSend, SMSGLobal etc) but are untested.
+To make the most of the tool we strongly recommend using a SMS service that messages patients as well as emailing them. Twilio provides good REDCap integration. Other providers should work (eg. ClickSend, SMSGLobal etc) but are untested.
 
 
 TODO... other preparations?
