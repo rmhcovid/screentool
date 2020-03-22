@@ -31,26 +31,22 @@ Screentool has been developed by Martin Dutch and is shared with compliments of 
 *Unfortunately we are not in a position to host your institution's health data. You must have your own running REDCap system to use this tool.*
 
 - a [REDCap](https://projectredcap.org/software/) installation and license
+- a recent enough version of REDCap to support the *Alerts and Notifications Function*
 - an outgoing email server and (ideally) a SMS gateway
 - a group email accounts for water clocks and for screening clinic conditions
 
 ## Downloading and using the tool
 
-Screentool requires a recent version of [REDCap](https://projectredcap.org/software/) which includes the *Alerts and Notifications Function*.
+Take a copy of our REDCap project file. **You will need to modified it** before you use it.
 
+1. Download the .RED project file from the *latest_version* directory above
+2. TODO import this file into your REDCap install
+4. TODO **critical** change the email, phone and sms notifications before running.
+3. TODO modifying for your organisation names, advice, etc
+5. TODO testing your new website
+6. TODO putting it into production
 
-TODO - Getting the file
-
-TODO - Importing the file
-
-TODO - Modifying for your organisation
-
-
-The REDCap project **will need to be modified** before you use it.
-
-You **must** change the email, phone and sms notifications before running.
-
-To make the most of the tool a dedicated SMS to email gateway should be set up. Twilio provides good REDCap intergration. Other providers should work (eg. ClickSend, SMSGLobal etc) but are untested.
+To make the most of the tool we strongly recommend using a SMS service that messages patients as well as emailing htem. Twilio provides good REDCap intergration. Other providers should work (eg. ClickSend, SMSGLobal etc) but are untested.
 
 ## Documentation
 
