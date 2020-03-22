@@ -7,7 +7,16 @@
 
 Screentool is a website for rapidly screening patients when they present at a medical facility who may have contracted the Covid-19 virus. It is a [REDCap](https://projectredcap.org/software/) (Research Electronic Data Capture tool) project that can be copied and adapted for your facility.
 
-Patients use the website to enter their own symptoms, travel history and contact information. Using the latest available government information they are separated into risk categories. Staff are notified of possible cases, and the patient is given actionable information (on screen, by email and SMS).
+Patients use the website to enter their own symptoms, travel history and contact information. Using the latest available government information they are separated into risk categories. Staff are notified of possible cases, administrative documents created, and the patient is given actionable information (on screen, by email and SMS).
+
+**As of March 2020** Screentool is in use at the Royal Melbourne Hospital in Victoria, Australia, and a number of other hospitals around the world.
+
+![Screenshot](https://user-images.githubusercontent.com/62467480/77226182-6d53dd80-6bca-11ea-8757-e47d094f45f4.png)
+
+Screentool has been developed by Martin Dutch and is shared with compliments of [The Royal Melbourne Hospital, Victoria, Australia](https://www.thermh.org.au/).
+
+
+## Features
 
 Screentool requests and assesses the patient's:
 
@@ -18,17 +27,30 @@ Screentool requests and assesses the patient's:
 - Name, dob and contact information
 - Allergy information
 - Reason for presenting and personal assessment of risk
+- (Assessment logic is based on the current [Victorian Screening Criteria Logic](https://www.dhhs.vic.gov.au/health-services-and-general-practitioners-coronavirus-disease-covid-19))
 
-**As of March 2020** Screentool is in use at the Royal Melbourne Hospital in Victoria, Australia, and a number of other hospitals around the world.
+The assessment outcomes are:
 
-![Screenshot](https://user-images.githubusercontent.com/62467480/77226182-6d53dd80-6bca-11ea-8757-e47d094f45f4.png)
+- Requires Covid-19 testing (with priorty alerts for health workers)
+- Should self quarantine, with calculation of period and advice
+- Does not currently require testing
 
 
-Screentool has been developed by Martin Dutch and is shared with compliments of [The Royal Melbourne Hospital, Victoria, Australia](https://www.thermh.org.au/).
+After assessment staff & patients are notified and administrative forms created:
+
+- Automated email to ward clerks within minimum registration dataset
+- Automated email to clinicians with clinical note for the medical record (capable of being copy and pasted into electronic health records)
+- Generates Work Clearance certificate
+- Generates Quarantine certificate
+- Work certificate for people swabed
+- Work certificate for people in quarantine
+- Logging of people who are swabbed
+- On completion of screening all patients are sent a Public Health message with [10 tips to prevent the spread](https://www.dhhs.vic.gov.au/sites/default/files/documents/202003/Reduce%20your%20risk%20of%20coronavirus_Poster.pdf).
+
 
 ## Requirements for using the tool
 
-*Unfortunately we are not in a position to host your institution's health data. You must have your own running REDCap system to use this tool.*
+*You must have your own running REDCap system to use this tool. Unfortunately we are not in a position to host your institution's health data.*
 
 - a [REDCap](https://projectredcap.org/software/) installation and license
 - a recent enough version of REDCap to support the *Alerts and Notifications Function*
