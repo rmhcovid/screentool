@@ -1,6 +1,6 @@
 <img width="150" height="150" align="left" style="float: left; margin: 0 10px 0 0;" alt="Screentool Logo" src="https://user-images.githubusercontent.com/62467480/77226293-519d0700-6bcb-11ea-985d-654e1dbe955f.png?sanitize=true">
 
-# RMH Covid-19 REDCap Screentool
+# RMH Covid-19 Screentool (REDCap project)
 
 **\*\*This tool is being updated daily as information and recommendations regarding the virus develop. Please check back regularly for updates.\*\***
 
