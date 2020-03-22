@@ -7,7 +7,9 @@
 
 Screentool is a website for rapidly screening patients when they present at a medical facility who may have contracted the Covid-19 virus. It is a [REDCap](https://projectredcap.org/software/) (Research Electronic Data Capture tool) project that can be copied and adapted for your facility.
 
-Patients use the website to enter their own symptoms, travel history and contact information. Using the latest available government information they are separated into risk categories. Staff are notified of possible cases, administrative documents created, and the patient is given actionable information (on screen, by email and SMS).
+Patients use the website to enter their own symptoms, travel history and contact information.
+Using the latest available government information they are separated into risk categories.
+Staff are notified of possible cases, administrative documents created, and the patient is given actionable information (on screen, by email and SMS).
 
 **As of March 2020** Screentool is in use at the Royal Melbourne Hospital in Victoria, Australia, and a number of other hospitals around the world.
 
@@ -38,8 +40,8 @@ The assessment outcomes are:
 
 After assessment staff & patients are notified and administrative forms created:
 
-- Automated email to ward clerks within minimum registration dataset
-- Automated email to clinicians with clinical note for the medical record (capable of being copy and pasted into electronic health records)
+- Email to ward clerks with minimum registration dataset
+- Email to clinicians with clinical note for the medical record<br/>(capable of being copy and pasted into electronic health records)
 - Generates Work Clearance certificate
 - Generates Quarantine certificate
 - Work certificate for people swabbed
@@ -67,6 +69,10 @@ After assessment staff & patients are notified and administrative forms created:
 - One for Ward Clerks (in our example eregs.wardclarks@yourhospital.org.au)
 2. Redirect those addresses to all the applicable staff<br/>**Or**, setup dedicated computers to check and display these emails (in a secure location) and implement staff procedures to check these regularly
 
+
+To make the most of the tool we strongly recommend using a SMS service that messages patients as well as emailing htem. Twilio provides good REDCap integration. Other providers should work (eg. ClickSend, SMSGLobal etc) but are untested.
+
+
 TODO... other preparations?
 
 ### Install and setup the REDCap project
@@ -76,15 +82,13 @@ Take a copy of our REDCap project file. **You must modified it** before you use 
 1. Download the .RED project file from the *latest_version* directory above
 2. TODO import this file into your REDCap install
 3. **critical** change the email addresses for staff alerts
-- change eregs.clinicians@yourhospital.org.au to your clinician address
+- change eregs.clinicians@yourhospital.org.au to your clinicians address
 - change eregs.wardclarks@yourhospital.org.au to your ward clerks address
 4. **critical** change the sms gateway address
 - change the first instrument rule @HIDDEN @DEFAULT='[p_mobilephone]*@smsgateway.ssg.org.au* to your SMS gateway
 5. TODO modifying for your organisation names, advice, etc
 6. TODO testing your new website
 7. TODO putting it into production
-
-To make the most of the tool we strongly recommend using a SMS service that messages patients as well as emailing htem. Twilio provides good REDCap integration. Other providers should work (eg. ClickSend, SMSGLobal etc) but are untested.
 
 ## Documentation
 
