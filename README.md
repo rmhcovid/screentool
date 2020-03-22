@@ -5,9 +5,9 @@
 **\*\*This tool is being updated daily as information and recommendations regarding the virus develop. Please check back regularly for updates.\*\***
 
 
-Screentool is a website for rapidly screening patients when they present at a medical facility and may have contracted the Covid-19 virus. It is a [REDCap](https://projectredcap.org/software/) (Research Electronic Data Capture tool) project that can be copied, and adapted for your medical facility.
+Screentool is a website for rapidly screening patients when they present at a medical facility who may have contracted the Covid-19 virus. It is a [REDCap](https://projectredcap.org/software/) (Research Electronic Data Capture tool) project that can be copied and adapted for your facility.
 
-Patients use the website to enter their own symptoms, contact information, and travel history. Using the latest available government information they are separated into risk categories. Staff are notified of possible cases, and the patient is given actionable information (on screen, by email and SMS).
+Patients use the website to enter their own symptoms, travel history and contact information. Using the latest available government information they are separated into risk categories. Staff are notified of possible cases, and the patient is given actionable information (on screen, by email and SMS).
 
 Screentool requests and assesses the patient's:
 
@@ -19,16 +19,25 @@ Screentool requests and assesses the patient's:
 - Allergy information
 - Reason for presenting and personal assessment of risk
 
-**As of March 2020** it is in use at the Royal Melbourne Hospital in Victoria, Australia, and a number of other hospitals around the world.
+**As of March 2020** Screentool is in use at the Royal Melbourne Hospital in Victoria, Australia, and a number of other hospitals around the world.
 
 ![Screenshot](https://user-images.githubusercontent.com/62467480/77226182-6d53dd80-6bca-11ea-8757-e47d094f45f4.png)
 
 
-
 Screentool has been developed by Martin Dutch and is shared with compliments of [The Royal Melbourne Hospital, Victoria, Australia](https://www.thermh.org.au/).
 
+## Requirements for using the tool
 
-## Downloading and using the Project
+*Unfortunately we are not in a position to host your institution's health data. You must have your own running REDCap system to use this tool.*
+
+- a [REDCap](https://projectredcap.org/software/) installation and license
+- an outgoing email server and (ideally) a SMS gateway
+- a group email accounts for water clocks and for screening clinic conditions
+
+## Downloading and using the tool
+
+Screentool requires a recent version of [REDCap](https://projectredcap.org/software/) which includes the *Alerts and Notifications Function*.
+
 
 TODO - Getting the file
 
@@ -36,12 +45,12 @@ TODO - Importing the file
 
 TODO - Modifying for your organisation
 
-Screentool requires a recent version of [REDCap](https://projectredcap.org/software/) which includes the *Alerts and Notifications Function*.
 
-The REDCap project *will need to be* be modified before you use it.
+The REDCap project **will need to be modified** before you use it.
 
-You **must** change the sms, phone and email alert notifications before running.
+You **must** change the email, phone and sms notifications before running.
 
+To make the most of the tool a dedicated SMS to email gateway should be set up. Twilio provides good REDCap intergration. Other providers should work (eg. ClickSend, SMSGLobal etc) but are untested.
 
 ## Documentation
 
