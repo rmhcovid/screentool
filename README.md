@@ -31,7 +31,7 @@ Screentool requests and assesses the patient's:
 
 The assessment outcomes are:
 
-- Requires Covid-19 testing (with priorty alerts for health workers)
+- Requires Covid-19 testing (with priority alerts for health workers)
 - Should self quarantine, with calculation of period and advice
 - Does not currently require testing
 
@@ -42,7 +42,7 @@ After assessment staff & patients are notified and administrative forms created:
 - Automated email to clinicians with clinical note for the medical record (capable of being copy and pasted into electronic health records)
 - Generates Work Clearance certificate
 - Generates Quarantine certificate
-- Work certificate for people swabed
+- Work certificate for people swabbed
 - Work certificate for people in quarantine
 - Logging of people who are swabbed
 - On completion of screening all patients are sent a Public Health message with [10 tips to prevent the spread](https://www.dhhs.vic.gov.au/sites/default/files/documents/202003/Reduce%20your%20risk%20of%20coronavirus_Poster.pdf).
@@ -68,7 +68,7 @@ Take a copy of our REDCap project file. **You will need to modified it** before 
 5. TODO testing your new website
 6. TODO putting it into production
 
-To make the most of the tool we strongly recommend using a SMS service that messages patients as well as emailing htem. Twilio provides good REDCap intergration. Other providers should work (eg. ClickSend, SMSGLobal etc) but are untested.
+To make the most of the tool we strongly recommend using a SMS service that messages patients as well as emailing htem. Twilio provides good REDCap integration. Other providers should work (eg. ClickSend, SMSGLobal etc) but are untested.
 
 ## Documentation
 
