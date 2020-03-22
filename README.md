@@ -56,9 +56,12 @@ TODO
 
 TODO
 
-## Help
+## Help and Known Issues
 
 The best place to obtain help for *ScreenTool* is ... TODO 
+
+If you REDCap instance doesn't have *Alerts and notifications* under the applications heading, then your version is too old. 
+It may be possible to maintain an old version using the [Autonotify plugin](https://github.com/123andy/redcap-plugin-autonotify) from 123Andy. We are unable to provide support for this.
 
 ## How to Contribute
 
