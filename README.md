@@ -55,18 +55,34 @@ After assessment staff & patients are notified and administrative forms created:
 - a [REDCap](https://projectredcap.org/software/) installation and license
 - a recent enough version of REDCap to support the *Alerts and Notifications Function*
 - an outgoing email server and (ideally) a SMS gateway
-- a group email accounts for water clocks and for screening clinic conditions
+- group email accounts for Ward Clerks and for screening Clinicians
+
 
 ## Downloading and using the tool
 
-Take a copy of our REDCap project file. **You will need to modified it** before you use it.
+### Prepare your team for using the tool
+
+1. Create two email-addresses for receiving the staff alerts
+- One for Clinicians (in our example eregs.clinicians@yourhospital.org.au)
+- One for Ward Clerks (in our example eregs.wardclarks@yourhospital.org.au)
+2. Redirect those addresses to all the applicable staff<br/>**Or**, setup dedicated computers to check and display these emails (in a secure location) and implement staff procedures to check these regularly
+
+TODO... other preparations?
+
+### Install and setup the REDCap project
+
+Take a copy of our REDCap project file. **You must modified it** before you use it.
 
 1. Download the .RED project file from the *latest_version* directory above
 2. TODO import this file into your REDCap install
-4. TODO **critical** change the email, phone and sms notifications before running.
-3. TODO modifying for your organisation names, advice, etc
-5. TODO testing your new website
-6. TODO putting it into production
+3. **critical** change the email addresses for staff alerts
+- change eregs.clinicians@yourhospital.org.au to your clinician address
+- change eregs.wardclarks@yourhospital.org.au to your ward clerks address
+4. **critical** change the sms gateway address
+- change the first instrument rule @HIDDEN @DEFAULT='[p_mobilephone]*@smsgateway.ssg.org.au* to your SMS gateway
+5. TODO modifying for your organisation names, advice, etc
+6. TODO testing your new website
+7. TODO putting it into production
 
 To make the most of the tool we strongly recommend using a SMS service that messages patients as well as emailing htem. Twilio provides good REDCap integration. Other providers should work (eg. ClickSend, SMSGLobal etc) but are untested.
 
