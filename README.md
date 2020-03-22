@@ -113,6 +113,13 @@ TODO
 
 Please see the attached LICENSE document.
 
+## Version History
+
+- [LATEST] - RMHCovid19ScreeningT_2020-03-22_2259.REDCap.xml
+  Change field 'Date of last contact with Covid-19 patient' mandatory
+- RMHCovid19ScreeningT_2020-03-22_1504.REDCap.xml
+
+
 ## Author and Acknowledgements
 
 This project was designed and managed using the [REDCap](https://projectredcap.org/software/) electronic data capture tool
