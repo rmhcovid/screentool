@@ -4,35 +4,36 @@
 
 1. Download our latest REDCap project template file at:
    https://github.com/rmhcovid/screentool/blob/master/latest_version/
-   eg 'RMHCovid19ScreeningXXXXXXXXXX.REDCap.xml'
+   <br/>eg 'RMHCovid19ScreeningXXXXXXXXXX.REDCap.xml'
 2. The tool needs to send email to your medical staff
-   Ask your IT staff to setup email accounts (or email redirect) for:
+   <br/>Ask your IT staff to setup email accounts (or email redirect) for:
    - your ward clerks eg wardclarks@yourhospital.org.au
    - your clinicians eg clinicians@yourhospital.org.au
 3. The tool attempts to SMS patients with important
-   This is accomplished with an email-to-sms service
-   ie we send an email to a particular address 0419xxxxxx@smsgateway.someone.com
-   and that service sends the SMS with the
+   <br/>This is accomplished with an 3rd-party email-to-sms service
+   <br/>ie we send an email to a particular address [patientsphonenumber]@smsgateway.someone.com and they send a SMS
 
-## On your REDCap server create the project
+## Create the REDCap project on your server
 
 1. Click 'New Project' in title bar
 2. Give your project a title eg 'Covid19 Screening Tool 20200324'
-   give your project a purpose
-   (recommended) in the notes field, add the version number of OUR template file you started with.
+   <br/>give your project a purpose
+   <br/>(recommended) in the notes field put the version number of the template file. This will be useful when upgrading
 3. Where it says "Start project from scratch or begin with a template?"
-   Choose 'Upload a REDCap project XML file (CDISC ODM format)?'
-   Select our template file eg 'RMHCovid19ScreeningXXXXXXXXXX.REDCap.xml'
+   <br/>Choose 'Upload a REDCap project XML file (CDISC ODM format)?'
+   <br/>Select our template file eg *RMHCovid19ScreeningXXXXXXXXXX.REDCap.xml*
 4. Click 'Create Project'
 
 ## Configure the outgoing emails / letters for your hospital
 
+You must update the notification emails or they will appear to come from the Royal Melbourne Hospital (or not send at all).
+
 1. Open REDCap 'Alerts & Notifications'
 2. For each alert - change the **From email address**
 3. For [TODO list of ward clerk emails] change the Ward Clerk email addresses
-   eregs_wardclerks@mh.org.au -> YOUR WARD CLERK EMAIL
+   <br/>eregs_wardclerks@mh.org.au -> YOUR WARD CLERK EMAIL
 4. For each [TODO list of clinician emails] change the Clinician email address
-   eregs_clinicians@mh.org.au -> YOUR CLINICIAN EMAIL
+   <br/>eregs_clinicians@mh.org.au -> YOUR CLINICIAN EMAIL
 5. For **every** alert - change the text of the email to reflect your hospital
 6. TODO - change the 'Email 10 Tips' email as desired
 
@@ -41,8 +42,8 @@
 1. Open the REDCap Codebook
 2. Find the 'RMH E Registration' instrument
 2. Locate the fields 'sms_email' and 'sms_email_2'
-   Notice how these calculate an email address of phonenumber@smsservice.com email address
-   Set this to your SMS provider. *using ours will fail*
+   <br/>Notice how these calculate an email address of phonenumber@smsservice.com email address
+   <br/>Set this to your SMS provider. *using ours will fail*
 
 
 ## TODO what other project setup?
