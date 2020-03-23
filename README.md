@@ -34,18 +34,18 @@ Screentool requests and assesses the patient's:
 The assessment outcomes are:
 
 - Requires Covid-19 testing (with priority alerts for health workers)
+- Requires a temperature check
 - Should self quarantine, with calculation of period and advice
 - Does not currently require testing
 
 
-After assessment staff & patients are notified and administrative forms created:
+After assessment staff & patients are notified and administrative letters created:
 
 - Email to ward clerks with minimum registration dataset
 - Email to clinicians with clinical note for the medical record<br/>(capable of being copy and pasted into electronic health records)
-- Generates Work Clearance certificate
-- Generates Quarantine certificate
-- Work certificate for people swabbed
-- Work certificate for people in quarantine
+- Generates Work certificate for employer (if swabbed awaiting testing)
+- Can't Work certificate for people who should self-quarantine
+- Work Clearance certificate (for low risk and able to return to work)
 - Logging of people who are swabbed
 - On completion of screening all patients are sent a Public Health message with [10 tips to prevent the spread](https://www.dhhs.vic.gov.au/sites/default/files/documents/202003/Reduce%20your%20risk%20of%20coronavirus_Poster.pdf).
 
@@ -79,20 +79,14 @@ TODO... other preparations?
 
 Take a copy of our REDCap project file. **You must modified it** before you use it.
 
-1. Download the .RED project file from the *latest_version* directory above
-2. TODO import this file into your REDCap install
-3. **critical** change the email addresses for staff alerts
-- change eregs.clinicians@yourhospital.org.au to your clinicians address
-- change eregs.wardclarks@yourhospital.org.au to your ward clerks address
-4. **critical** change the sms gateway address
-- change the first instrument rule @HIDDEN @DEFAULT='[p_mobilephone]*@smsgateway.ssg.org.au* to your SMS gateway
-5. TODO modifying for your organisation names, advice, etc
-6. TODO testing your new website
-7. TODO putting it into production
+1. Read the [overview guide](https://github.com/rmhcovid/screentool/documentation/overview_START_HERE.md)
+2. Follow the [setup instructions](https://github.com/rmhcovid/screentool/documentation/setup_instructions.md ) to get a copy up and running
+3. Read the [technical_overview](https://github.com/rmhcovid/screentool/documentation/technical_overview.md) to understand how the tool works and adapt it to your needs
+
 
 ## Documentation
 
-TODO
+TODO see /documentation/ directory
 
 ## Reporting Issues
 
