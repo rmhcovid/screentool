@@ -34,11 +34,16 @@ To understand how the tool works and to adapt it to your local needs, read docum
 
 # Terminology
 
-- Screening outcome **TEMPCHECK** - This patient is a possible covid-19 case. Check their temperature before deciding to swab.
-- Screening outcome **TEST** - This patient is a possible covid-19 case. Intake them and test.
-- Screening outcome **NOTEST** - This patient is a low risk of covid-19. Send them away with useful information.
-- Screening outcome **QUARANTINE** - This patient does not currently require testing for covid-19 but should self-isolate due to risk factors (eg recent international travel)
-- **DHHS** - Department of Health and Human Services. The government body overseeing healthcare in Victoria Australia.
+- Screening outcome **TEMPCHECK**
+  <br/>patient is a possible covid-19 case. Check their temperature before deciding to swab.
+- Screening outcome **TEST**
+  <br/>patient is a possible covid-19 case. Intake them and test.
+- Screening outcome **NOTEST**
+  <br/>patient is a low risk of covid-19. Send them away with useful information.
+- Screening outcome **QUARANTINE**
+  <br/>patient does not currently require testing for covid-19 but should self-isolate due to risk factors (eg recent international travel)
+- **DHHS**
+  <br/>Department of Health and Human Services. The government body overseeing healthcare in Victoria Australia.
 - **Swabbed** - mouth swab taken for Covid-19 testing
 - **Ward Clerk** - xxxxx
 - **Clinician** - xxx
