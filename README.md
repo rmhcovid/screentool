@@ -60,26 +60,11 @@ After assessment staff & patients are notified and administrative letters create
 - group email accounts for Ward Clerks and for screening Clinicians
 
 
-## Downloading and using the tool
-
-### Prepare your team for using the tool
-
-1. Create two email-addresses for receiving the staff alerts
-- One for Clinicians (in our example eregs.clinicians@yourhospital.org.au)
-- One for Ward Clerks (in our example eregs.wardclarks@yourhospital.org.au)
-2. Redirect those addresses to all the applicable staff<br/>**Or**, setup dedicated computers to check and display these emails (in a secure location) and implement staff procedures to check these regularly
-
-
-To make the most of the tool we strongly recommend using a SMS service that messages patients as well as emailing them. Twilio provides good REDCap integration. Other providers should work (eg. ClickSend, SMSGLobal etc) but are untested.
-
-
-TODO... other preparations?
-
-### Install and setup the REDCap project
+## Download, setup the tool, and prepare your team
 
 Take a copy of our REDCap project file. **You must modified it** before you use it.
 
-1. Read the [overview guide](https://github.com/rmhcovid/screentool/blob/master/documentation/overview_START_HERE.md)
+1. Read the brief [overview guide](https://github.com/rmhcovid/screentool/blob/master/documentation/overview_START_HERE.md)
 2. Follow the [setup instructions](https://github.com/rmhcovid/screentool/blob/master/documentation/setup_instructions.md) to get a copy up and running
 3. Read the [technical_overview](https://github.com/rmhcovid/screentool/blob/master/documentation/technical_overview.md) to understand how the tool works and adapt it to your needs
 
