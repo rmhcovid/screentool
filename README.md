@@ -79,9 +79,9 @@ TODO... other preparations?
 
 Take a copy of our REDCap project file. **You must modified it** before you use it.
 
-1. Read the [overview guide](https://github.com/rmhcovid/screentool/documentation/overview_START_HERE.md)
-2. Follow the [setup instructions](https://github.com/rmhcovid/screentool/documentation/setup_instructions.md ) to get a copy up and running
-3. Read the [technical_overview](https://github.com/rmhcovid/screentool/documentation/technical_overview.md) to understand how the tool works and adapt it to your needs
+1. Read the [overview guide](https://github.com/rmhcovid/screentool/blob/master/documentation/overview_START_HERE.md)
+2. Follow the [setup instructions](https://github.com/rmhcovid/screentool/blob/master/documentation/setup_instructions.md) to get a copy up and running
+3. Read the [technical_overview](https://github.com/rmhcovid/screentool/blob/master/documentation/technical_overview.md) to understand how the tool works and adapt it to your needs
 
 
 ## Documentation
