@@ -94,9 +94,10 @@ Please see the attached LICENSE document.
 
 ## Version History
 
-- **[LATEST]** RMHCovid19ScreeningT_2020-03-22_2259.REDCap.xml<br/>Change field 'Date of last contact with Covid-19 patient' mandatory
-- RMHCovid19ScreeningT_2020-03-22_1504.REDCap.xml<br/>TODO
-
+- See  [CHANGELOG.md](https://github.com/rmhcovid/screentool/blob/master/CHANGELOG.md)
+- 3.1.0 - 2020-03-29 - RMHCovid19ScreeningT_2020-03-29_1435.REDCap.xml
+- 3.0.1 - 2020-03-22 - RMHCovid19ScreeningT_2020-03-22_2259.REDCap.xml
+- 3.0.0 - 2020-03-22 - RMHCovid19ScreeningT_2020-03-22_1504.REDCap.xml
 
 ## Author and Acknowledgements
 
