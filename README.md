@@ -95,6 +95,7 @@ Please see the attached LICENSE document.
 ## Version History
 
 - See  [CHANGELOG.md](https://github.com/rmhcovid/screentool/blob/master/CHANGELOG.md)
+- 4.0.0 - 2020-04-21 - RMHCovid19ScreeningT_2020-04-21_1252.REDCap.xml
 - 3.1.0 - 2020-03-29 - RMHCovid19ScreeningT_2020-03-29_1435.REDCap.xml
 - 3.0.1 - 2020-03-22 - RMHCovid19ScreeningT_2020-03-22_2259.REDCap.xml
 - 3.0.0 - 2020-03-22 - RMHCovid19ScreeningT_2020-03-22_1504.REDCap.xml

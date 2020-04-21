@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 
 
+## [4.0.0] - 2020-04-21
+
+### Added
+
+- RMHCovid19ScreeningT_2020-04-21_1252.REDCap.xml
+- A 'PLEASE SCROLL DOWN AND HIT SUBMIT!' message on final survey screen. This text changes the 'scroll' variable.
+- A new SMS alert to patients summarising their screening assessment to show clinical staff on request (stops clinical staff having to visit a pc to check their basic details).
+
+### Changed
+- Logic of who requires a swab test updated to latest Victorian guidelines
+- Updated travel question to include cruise ships
+- Patients with any of the symptoms Fever, Chills, Cough, Sore Throat, Shortness of Breath will now trigger a test
+- Patients with who have travelled or been in contact with a known case and who have any of these symptoms Diarrhoea, Muscle Ache, Runny or Stuffy Nose, Loss of smell, Nausea, Vomiting, Diarrhea will now trigger a test
+
+
 ## [3.1.0] - 2020-03-29
 
 ### Added
