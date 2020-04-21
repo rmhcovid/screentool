@@ -7,7 +7,7 @@
    <br/>eg 'RMHCovid19ScreeningXXXXXXXXXX.REDCap.xml'
 2. The tool needs to send email to your medical staff
    <br/>Ask your IT staff to setup email accounts (or email redirect) for:
-   - your ward clerks eg wardclarks@yourhospital.org.au
+   - your ward clerks eg wardclerks@yourhospital.org.au
    - your clinicians eg clinicians@yourhospital.org.au
 3. The tool attempts to SMS patients with important
    <br/>This is accomplished with an 3rd-party email-to-sms service
