@@ -31,9 +31,9 @@ You must update the notification emails or they will appear to come from the Roy
 1. Open REDCap 'Alerts & Notifications'
 2. For each alert - change the **From email address**
 3. For [TODO list of ward clerk emails] change the Ward Clerk email addresses
-   <br/>eregs_wardclerks@mh.org.au -> YOUR WARD CLERK EMAIL
+   <br/>wardclerks@yourhospital.org.au -> YOUR WARD CLERK EMAIL
 4. For each [TODO list of clinician emails] change the Clinician email address
-   <br/>eregs_clinicians@mh.org.au -> YOUR CLINICIAN EMAIL
+   <br/>clinicians@yourhospital.org.au -> YOUR CLINICIAN EMAIL
 5. For **every** alert - change the text of the email to reflect your hospital
 6. TODO - change the 'Email 10 Tips' email as desired
 
