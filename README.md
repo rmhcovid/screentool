@@ -2,9 +2,6 @@
 
 # RMH Covid-19 Screentool (REDCap project)
 
-**\*\*This tool is being updated daily as information and recommendations regarding the virus develop. Please check back regularly for updates.\*\***
-
-
 Screentool is a website for rapidly screening patients when they present at a medical facility who may have contracted the Covid-19 virus. It is a [REDCap](https://projectredcap.org/software/) (Research Electronic Data Capture tool) project that can be copied and adapted for your facility.
 
 Patients use the website to enter their own symptoms, travel history and contact information.
